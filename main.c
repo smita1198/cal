@@ -94,7 +94,7 @@ void calculator_menu(void)
             printf("\n\t%d / %d = %d\nEnter to continue", 
             cal_operand1, 
             cal_operand2,
-            divide(calculator_operand1, calculator_operand2));
+            divide(cal_operand1, cal_operand2));
             
             __fpurge(stdin);
             getchar();
