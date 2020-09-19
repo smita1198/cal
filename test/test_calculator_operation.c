@@ -45,10 +45,10 @@ int main() {
 void test_add(void) {
   CU_ASSERT(30 == add(10, 20));
 
-  void test_add(void) {
+ 
   CU_ASSERT(40 == add(20, 20));
 
-  void test_add(void) {
+  
   CU_ASSERT(30 == add(10, 150));
   
   /* Dummy fail*/
@@ -58,10 +58,10 @@ void test_add(void) {
 void test_subtract(void) {
   CU_ASSERT(-3 == subtract(0, 3));
   
-  void test_subtract(void) {
+ 
   CU_ASSERT(2 == subtract(5, 3));
 
-  void test_subtract(void) {
+  
   CU_ASSERT(-3 == subtract(4, 3));
 
   /* Dummy fail*/
@@ -71,10 +71,10 @@ void test_subtract(void) {
 void test_multiply(void) {
   CU_ASSERT(0 == multiply(1, 0));
 
-  void test_multiply(void) {
+  
   CU_ASSERT(25 == multiply(5, 5));
 
-  void test_multiply(void) {
+ 
   CU_ASSERT(12 == multiply(2, 33));
   
   /* Dummy fail*/
@@ -84,10 +84,10 @@ void test_multiply(void) {
 void test_divide(void) {
   CU_ASSERT(0 == divide(1, 0));
 
-  void test_divide(void) {
+ 
   CU_ASSERT(2 == divide(4, 2));
 
-  void test_divide(void) {
+  
   CU_ASSERT(5 == divide(4,4));
   
   /* Dummy fail*/
